@@ -1,12 +1,10 @@
 import React from "react";
 import { FloatingDock } from "@/app/components/ui/floating-dock";
 import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
+  IconAddressBook,
+  IconUserBolt,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
+  IconSettingsStar,
 } from "@tabler/icons-react";
 import Image from "next/image";
 import VsayLogo from "@/app/images/vsay-logo.png"
@@ -18,22 +16,15 @@ export function FloatingDockHome() {
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "/",
     },
 
     {
-      title: "Products",
+      title: "Services",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconSettingsStar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-    {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: "/services",
     },
     {
       title: "VSAY Home",
@@ -47,27 +38,20 @@ export function FloatingDockHome() {
       ),
       href: "/",
     },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
 
     {
-      title: "Twitter",
+      title: "About Us",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconUserBolt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "/aboutus",
     },
     {
-      title: "GitHub",
+      title: "Contact Us",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconAddressBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "/contact",
     },
   ];
   return (
