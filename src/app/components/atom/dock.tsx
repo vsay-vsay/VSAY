@@ -5,6 +5,8 @@ import {
   IconUserBolt,
   IconHome,
   IconSettingsStar,
+  IconZoomExclamation,
+  IconAlignBoxBottomCenter
 } from "@tabler/icons-react";
 import Image from "next/image";
 import VsayLogo from "@/app/images/vsay-logo.png"
@@ -26,6 +28,15 @@ export function FloatingDockHome() {
       ),
       href: "/pages/services",
     },
+
+    {
+      title: "Clients & Testimonials",
+      icon: (
+        <IconAlignBoxBottomCenter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/pages/clients",
+    },
+
     {
       title: "VSAY Home",
       icon: (
@@ -37,6 +48,14 @@ export function FloatingDockHome() {
         />
       ),
       href: "/",
+    },
+
+    {
+      title: "Ask Any Question ?",
+      icon: (
+        <IconZoomExclamation className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/pages/questions"
     },
 
     {
