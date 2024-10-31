@@ -18,7 +18,7 @@ const MainLandingPage: React.FC = () => {
         {HomePageHeading.descrition1} <br />
         {HomePageHeading.descrition2}
       </p>
-      <HoverBorderGradientButton text="Know More" url="/details" logo={logo} />
+      <HoverBorderGradientButton text="Know More" url="/details" logo={logo.src} />
       <FloatingDockHome />
     </BackgroundLines>
     </>
