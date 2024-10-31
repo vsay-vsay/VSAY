@@ -24,7 +24,7 @@ export function FloatingDockHome() {
       icon: (
         <IconSettingsStar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/services",
+      href: "/pages/services",
     },
     {
       title: "VSAY Home",
@@ -44,14 +44,14 @@ export function FloatingDockHome() {
       icon: (
         <IconUserBolt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/aboutus",
+      href: "/pages/aboutus",
     },
     {
       title: "Contact Us",
       icon: (
         <IconAddressBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/contact",
+      href: "/pages/contactus",
     },
   ];
   return (
