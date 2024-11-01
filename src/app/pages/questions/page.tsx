@@ -25,7 +25,7 @@ const Question: React.FC = () => {
     <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 pt-12">
     <div className="h-[40rem] flex flex-col justify-center  items-center px-4 pt-20">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black font-bold">
-        Ask Aceternity UI Anything
+        Ask Anything From VSAY Team !
       </h2>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
