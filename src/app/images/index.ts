@@ -13,7 +13,7 @@ import webdev from './services/webdev.webp';
 import digitalMarketing1 from './services/digitalmarketing1.webp';
 import digitalMarketing2 from './services/digitalmarketing2.jpeg';
 import designing1 from './services/desgining1.webp';
-import designing2 from './services/desgining2.avif';
+import designing2 from './services/designing2.jpg';
 import drone1 from './services/drone1.jpg';
 import drone2 from './services/drone2.jpg';
 import printing1 from './services/printing1.jpeg';
