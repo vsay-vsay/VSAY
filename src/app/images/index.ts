@@ -18,6 +18,9 @@ import drone1 from './services/drone1.jpg';
 import drone2 from './services/drone2.jpg';
 import printing1 from './services/printing1.jpeg';
 import printing2 from './services/printing2.png';
+import location from '@/app/images/footer/socials/location.svg';
+import mail from '@/app/images/footer/socials/mail.svg';
+import phone from '@/app/images/footer/socials/phone.svg';
 
 export {
     robotics1,
@@ -40,4 +43,7 @@ export {
     drone2,
     printing1,
     printing2,
+    location,
+    mail,
+    phone,
 }
