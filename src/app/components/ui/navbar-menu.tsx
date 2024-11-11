@@ -26,13 +26,15 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
-      <motion.p
+    <div onMouseEnter={() => setActive(item)} className="relative">
+     <motion.p
         transition={{ duration: 0.3 }}
-        className="flex cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
+        className="flex items-center cursor-pointer text-black hover:opacity-[0.9] dark:text-white whitespace-nowrap"
       >
-          <IconArrowLeft stroke={2} className="mr-2"/>
-          <span>{item}</span>
+      <Link href="/" className="flex items-center">
+        <IconArrowLeft stroke={2} className="mr-2" />
+        <span>{item}</span>
+      </Link>
       </motion.p>
       {active !== null && (
         <motion.div
