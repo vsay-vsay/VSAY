@@ -4,7 +4,7 @@ import Section from "@/app/components/ui/Section";
   export default function Team() {
     return (
         <div className="pt-[4.75rem] lg:[5.25rem] overflow-hidden pl-[4.5rem] pr-12">
-    <Section crosses className="!px-0 !py-10" id='team' children={undefined}>
+    <Section crosses className="!px-0 !py-10" id='team'>
       <div className="sm:py-12">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-xl">
