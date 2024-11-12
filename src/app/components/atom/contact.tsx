@@ -18,11 +18,10 @@ export default function ContactForm() {
             </a>
           </p>
           <Image
-            src={ContactImage}
-            alt="Illustration"
-            className="hidden md:block mt-20 ml-[5rem] w-[65%]"
-             style={{ animation: "bounce 4s infinite" }}
-          />
+              src={ContactImage}
+              alt="Illustration"
+              className="hidden md:block mt-20 ml-[5rem] w-[65%] animate-bounceCustom"
+            />
         </div>
         <div className="mx-[5rem] ">
           <form>
