@@ -46,5 +46,31 @@ export const socials = [
     },
   ];
 
+
+  export const people = [
+    {
+      name: 'Leslie Alexander',
+      role: 'Co-Founder / CEO',
+      imageUrl: discordBlack,
+    },
+
+    {
+      name: 'Leslie Alexander1',
+      role: 'Co-Founder / CEO',
+      imageUrl: discordBlack,
+    },
+    {
+      name: 'Leslie Alexander2',
+      role: 'Co-Founder / CEO',
+      imageUrl: discordBlack,
+    },
+    {
+      name: 'Leslie Alexander3',
+      role: 'Co-Founder / CEO',
+      imageUrl: discordBlack,
+    },
+    
+    // More people...
+  ]
   
 

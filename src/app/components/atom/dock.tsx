@@ -2,7 +2,7 @@ import React from "react";
 import { FloatingDock } from "@/app/components/ui/floating-dock";
 import {
   IconAddressBook,
-  IconUserBolt,
+  IconLayoutDashboard,
   IconHome,
   IconSettingsStar,
   IconZoomExclamation,
@@ -59,14 +59,14 @@ export function FloatingDockHome() {
     },
 
     {
-      title: "About Us",
+      title: "Our Products",
       icon: (
-        <IconUserBolt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconLayoutDashboard className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/aboutus",
+      href: "/pages/products",
     },
     {
-      title: "Contact Us",
+      title: "About & Contact Us",
       icon: (
         <IconAddressBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
