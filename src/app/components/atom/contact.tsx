@@ -21,7 +21,7 @@ export default function ContactForm() {
             src={ContactImage}
             alt="Illustration"
             className="hidden md:block mt-20 ml-[5rem] w-[65%]"
-            style={{ animation: "bounce 4s infinite" }}
+             style={{ animation: "bounce 4s infinite" }}
           />
         </div>
         <div className="mx-[5rem] ">
