@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/app/components/ui/lamp";
 import { NavbarButton } from "@/app/components/atom/navbutton";
-import Footer from "@/app/components/atom/footer";
 import Team from "@/app/components/atom/team";
 import ContactForm from "@/app/components/atom/contact";
 import MissionVision from "@/app/components/atom/mission";
@@ -30,7 +29,7 @@ const ContactUs: React.FC = () => {
     <MissionVision />
     <Team />
     <ContactForm />
-    <Footer />
+
     </>
   );
 }

@@ -26,7 +26,7 @@ export function FloatingDockHome() {
       icon: (
         <IconSettingsStar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/services",
+      href: "/services",
     },
 
     {
@@ -34,7 +34,7 @@ export function FloatingDockHome() {
       icon: (
         <IconAlignBoxBottomCenter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/clients",
+      href: "/clients",
     },
 
     {
@@ -55,7 +55,7 @@ export function FloatingDockHome() {
       icon: (
         <IconZoomExclamation className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/questions"
+      href: "/questions"
     },
 
     {
@@ -63,14 +63,14 @@ export function FloatingDockHome() {
       icon: (
         <IconLayoutDashboard className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/products",
+      href: "/products",
     },
     {
       title: "About & Contact Us",
       icon: (
         <IconAddressBook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/pages/contactus",
+      href: "/contactus",
     },
   ];
   return (
