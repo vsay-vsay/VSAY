@@ -62,7 +62,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contactus"
+                    href="/contactus/#mission"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     About Us
@@ -78,15 +78,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/blogs"
+                    href="/products"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
-                    Latest Blog
+                    Our Products
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/feedback-form"
+                    href="/contactus/#contact"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Feedback Form
@@ -101,12 +101,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  {/* <Link
                     href="/brochure"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Brochure
-                  </Link>
+                  </Link> */}
                 </li>
               </ul>
             </div>
