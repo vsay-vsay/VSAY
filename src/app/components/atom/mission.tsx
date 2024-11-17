@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import MisionVision from '@/app/images/vsay-logo.png'
+import MisionVision from '@/app/images/mission-vision.webp'
 
 export default function MissionVision() {
   return (
-    <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0" id='mission'>
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -62,7 +62,11 @@ export default function MissionVision() {
               Leading Innovation in the world for a Brighter Tomorrow.
               </p>
               <p className="mt-6 text-xl/8 text-gray-700 dark:text-gray-300">
-              To build a technically empowered nation by providing top-tier training, lab management, and software solutions. Our goal is to enable every organization, small or large, with the tools and expertise needed to thrive in a digital-first world. We envision a future where every enterprise in India leverages cutting-edge technology with seamless, integrated support from VSAY.
+              VSAY is a technology-driven company committed to transforming the way organizations in India access and utilize advanced digital solutions. We specialize in providing high-quality, affordable services across fields like robotics, IoT, cybersecurity, and software development, tailored to support businesses of all sizes. <br />
+
+We believe in building a technically empowered nation, enabling enterprises to leverage innovative tools that foster growth, efficiency, and competitiveness. Through comprehensive training, lab management, and customized solutions, VSAY equips businesses with the knowledge and resources needed to succeed in an increasingly digital world. <br />
+
+At VSAY, we’re dedicated to creating impactful, long-term partnerships by delivering excellence in every project, fostering a future where every organization can thrive with the power of cutting-edge technology.
               </p>
             </div>
           </div>

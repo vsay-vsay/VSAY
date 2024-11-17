@@ -21,6 +21,12 @@ import printing2 from './services/printing2.png';
 import location from '@/app/images/footer/socials/location.svg';
 import mail from '@/app/images/footer/socials/mail.svg';
 import phone from '@/app/images/footer/socials/phone.svg';
+import vritka from '@/app/images/people/vritika.jpeg';
+import yesveer from '@/app/images/people/yesveer.jpeg';
+import arvind from '@/app/images/people/Arvind.jpeg';
+import sarthak from '@/app/images/people/Sharthak.jpg';
+import anish from '@/app/images/people/Anish.jpeg';
+
 
 export {
     robotics1,
@@ -46,4 +52,9 @@ export {
     location,
     mail,
     phone,
+    vritka,
+    yesveer,
+    arvind,
+    sarthak,
+    anish,
 }
