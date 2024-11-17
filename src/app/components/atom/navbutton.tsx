@@ -17,13 +17,13 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 inset-x-0 max-w-[10.8rem] mx-auto z-50", className)}
     >
-        <Menu setActive={setActive}>
+        {/* <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Go Back !">
         <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/">Thanks for visting This Page !</HoveredLink>
           </div>
         </MenuItem>
-        </Menu>
+        </Menu> */}
       {/* <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">

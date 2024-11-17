@@ -1,16 +1,15 @@
-import React from 'react'
-import Footer from '../components/atom/footer';
+import React from "react";
+import Footer from "../components/atom/footer";
+import Header from "../components/atom/Header";
 
-function layout({children}:{
-    children: React.ReactNode;
-  } ) {
+function layout({ children }: { children: React.ReactNode }) {
   return (
     <div>
-        {/* <header>Header</header> */}
-        <main>{children}</main>
-        <Footer/>
+      <Header />
+      <main>{children}</main>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default layout
+export default layout;

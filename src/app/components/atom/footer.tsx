@@ -62,7 +62,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/about-us"
+                    href="/contactus"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     About Us
@@ -94,7 +94,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact-us"
+                    href="/contactus/#contact"
                     className="text-n-3 hover:underline hover:text-n-1"
                   >
                     Contact Us
