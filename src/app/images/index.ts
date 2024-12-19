@@ -26,6 +26,7 @@ import yesveer from '@/app/images/people/yesveer.jpeg';
 import arvind from '@/app/images/people/Arvind.jpeg';
 import sarthak from '@/app/images/people/Sharthak.jpg';
 import anish from '@/app/images/people/Anish.jpeg';
+import jai from '@/app/images/people/jai.jpeg';
 
 
 export {
@@ -57,4 +58,5 @@ export {
     arvind,
     sarthak,
     anish,
+    jai,
 }

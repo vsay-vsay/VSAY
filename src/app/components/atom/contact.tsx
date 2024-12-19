@@ -14,7 +14,7 @@ export default function ContactForm() {
           <p className="mt-4">
             Or reach out manually to{" "}
             <a href="mailto:vsay.official@gmail.com" className="text-gray-800 dark:text-gray-100 text-xl font-bold">
-              vsay.official@gmail.com
+              info@vsay.live
             </a>
           </p>
           <Image
