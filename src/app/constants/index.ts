@@ -3,7 +3,7 @@ import twitter from '@/app/images/footer/socials/twitter.svg';
 import instagram from '@/app/images/footer/socials/instagram.svg';
 import telegram from '@/app/images/footer/socials/telegram.svg';
 import facebook from '@/app/images/footer/socials/facebook.svg';
-import { anish, arvind, sarthak, vritka, yesveer } from '../images';
+import { anish, arvind, sarthak, vritka, jai } from '../images';
 // import linkedin from '@/app/images/footer/socials/linkedin.svg';
 
 export const HomePageHeading = {
@@ -56,9 +56,9 @@ export const socials = [
     },
 
     {
-      name: 'Yesveer Singh',
+      name: 'Jai Srivastava',
       role: 'Developer',
-      imageUrl: yesveer,
+      imageUrl: jai,
     },
     {
       name: 'Vritika Rathore',

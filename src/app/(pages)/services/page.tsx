@@ -34,7 +34,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/robotics" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/robotics" logo={logo.src} />
         </div>
       ),
     },
@@ -64,7 +64,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/iot" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/iot" logo={logo.src} />
         </div>
       ),
     },
@@ -94,7 +94,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/ai-ml" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/ai-ml" logo={logo.src} />
         </div>
       ),
     },
@@ -124,7 +124,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/dataanalysis" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/dataanalysis" logo={logo.src} />
         </div>
       ),
     },
@@ -155,7 +155,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/cybersecurity" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/cybersecurity" logo={logo.src} />
         </div>
       ),
     },
@@ -199,7 +199,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/webappdev" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/webappdev" logo={logo.src} />
         </div>
       ),
     },
@@ -243,7 +243,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/digitalmarketing" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/digitalmarketing" logo={logo.src} />
         </div>
       ),
     },
@@ -287,7 +287,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/designing" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/designing" logo={logo.src} />
         </div>
       ),
     },
@@ -331,7 +331,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/drone" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/drone" logo={logo.src} />
         </div>
       ),
     },
@@ -375,7 +375,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
-          <HoverBorderGradientButton text="Explore More !" url="/pages/services/printing" logo={logo.src} />
+          <HoverBorderGradientButton text="Explore More !" url="/services/printing" logo={logo.src} />
         </div>
       ),
     },

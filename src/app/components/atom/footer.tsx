@@ -37,8 +37,8 @@ const Footer = () => {
               <div>
                 <p className="mt-2 text-n-3 hover:underline hover:text-n-1 inline-flex">
                   <Image src={mail} alt="mail" height={30} width={30} />
-                  <Link href="mailto:vsay.oficial@gmail.com" className="ml-2">
-                    vsay.oficial@gmail.com
+                  <Link href="mailto:info@vsay.live" className="ml-2">
+                    info@vsay.live
                   </Link>
                 </p>
               </div>
