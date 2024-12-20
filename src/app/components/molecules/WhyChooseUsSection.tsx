@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 // import { FaRobot, FaLightbulb, FaTools, FaUserCog, FaChartLine, FaHandshake } from "react-icons/fa";
 
 const WhyChooseUsSection = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  // const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const features = [
     {
@@ -62,14 +63,14 @@ const WhyChooseUsSection = () => {
               onHoverEnd={() => setHoveredIndex(null)}
               className="bg-white p-8 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl"
             >
-              <motion.div
+{/*               <motion.div
                 initial={{ scale: 1 }}
                 animate={{ scale: hoveredIndex === index ? 1.1 : 1 }}
                 transition={{ duration: 0.2 }}
                 className="mb-6"
               >
                 {feature.icon}
-              </motion.div>
+              </motion.div> */}
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
               <p className="text-gray-600 mb-6">{feature.description}</p>
               <motion.button
