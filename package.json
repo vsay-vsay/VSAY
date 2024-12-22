@@ -12,6 +12,7 @@
   "dependencies": {
     "@kinfe123/farm-ui": "^1.0.12",
     "@tabler/icons-react": "^3.22.0",
+    "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
     "next": "15.0.2",
@@ -21,6 +22,7 @@
     "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
