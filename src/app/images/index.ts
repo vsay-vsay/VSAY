@@ -27,6 +27,10 @@ import arvind from '@/app/images/people/Arvind.jpeg';
 import sarthak from '@/app/images/people/Sharthak.jpg';
 import anish from '@/app/images/people/Anish.jpeg';
 import jai from '@/app/images/people/jai.jpeg';
+import print1 from '@/app/images/services/3D_Printing/3dprint1.jpg'
+import print2 from '@/app/images/services/3D_Printing/3Dprint2.webp'
+import print3 from '@/app/images/services/3D_Printing/3Dprint3.webp'
+
 
 
 export {
@@ -59,4 +63,7 @@ export {
     sarthak,
     anish,
     jai,
+    print1,
+    print2,
+    print3,
 }
