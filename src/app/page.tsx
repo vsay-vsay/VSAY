@@ -48,7 +48,7 @@ const MainLandingPage: React.FC = () => {
       <h6 className="font-bold pt-4">
         {HomePageHeading.descrition3}
       </h6>
-      <HoverBorderGradientButton text="Explore More !" url="/pages/services" logo={logo.src} />
+      <HoverBorderGradientButton text="Explore More !" url="/services" logo={logo.src} />
       <FloatingDockHome />
     </BackgroundLines>
     </>

@@ -2,7 +2,7 @@
 import IoTAboutService from "@/app/components/molecules/AboutSection/IoT";
 import IoTProcessSection from "@/app/components/molecules/ApprochSection/IoT";
 import IoTHeroSection from "@/app/components/molecules/HeroSection/IoT";
-import { RoboticsServiceApplication } from "@/app/components/molecules/RoboticsServicesApplication";
+import { RoboticsServiceApplication } from "@/app/components/molecules/ServiceSection/RoboticsServicesApplication";
 
 const IoT: React.FC = () => {
   return (

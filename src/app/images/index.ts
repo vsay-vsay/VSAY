@@ -27,9 +27,14 @@ import arvind from '@/app/images/people/Arvind.jpeg';
 import sarthak from '@/app/images/people/Sharthak.jpg';
 import anish from '@/app/images/people/Anish.jpeg';
 import jai from '@/app/images/people/jai.jpeg';
-import print1 from '@/app/images/services/3D_Printing/3dprint1.jpg'
-import print2 from '@/app/images/services/3D_Printing/3Dprint2.webp'
-import print3 from '@/app/images/services/3D_Printing/3Dprint3.webp'
+import sushant from '@/app/images/people/sushant.png';
+import printingpage1 from '@/app/images/services/printing/printing1.jpeg';
+import printingpage2 from '@/app/images/services/printing/printing2.jpeg';
+import printingpage3 from '@/app/images/services/printing/printing3.jpeg';
+import printingpage4 from '@/app/images/services/printing/printing4.jpeg';
+import printingpage5 from '@/app/images/services/printing/printing5.jpeg';
+import printingpage6 from '@/app/images/services/printing/printing6.webp';
+import printingpage7 from '@/app/images/services/printing/printing7.jpg';
 
 
 
@@ -63,7 +68,12 @@ export {
     sarthak,
     anish,
     jai,
-    print1,
-    print2,
-    print3,
+    sushant,
+    printingpage1,
+    printingpage2,
+    printingpage3,
+    printingpage4,
+    printingpage5,
+    printingpage6,
+    printingpage7,
 }
