@@ -3,7 +3,7 @@
 import DroneHeroSection from "@/app/components/molecules/HeroSection/drone";
 import DroneAboutSection from "@/app/components/molecules/AboutSection/droneAboutSection";
 import DroneApproach from "@/app/components/molecules/ApprochSection/droneApproach";
-import WhyChooseUsSection from "@/app/components/molecules/WhyChooseUsSectiondrone";
+import WhyChooseUsSection from "@/app/components/molecules/WhyChooseUsSection/PrintingSection";
 
 
 const Drone: React.FC = () => {
