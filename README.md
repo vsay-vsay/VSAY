@@ -1,7 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 ## Installing Dependencies 
 
-First, run the development server:
+First install : 
+
+```bash
+Node Version - v22.3.0
+```
+
+Second, run the development server:
 
 ```bash
 npm install --force
