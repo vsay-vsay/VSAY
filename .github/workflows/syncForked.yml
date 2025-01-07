@@ -14,6 +14,11 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
 
+      - name: Set Git Identity
+        run: |
+          git config --global user.name "Yesveer"
+          git config --global user.email "shivambhairav@gmail.com"
+
       - name: Add Upstream Remote
         run: git remote add upstream https://github.com/vsay-vsay/VSAY.git
 
