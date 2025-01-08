@@ -18,7 +18,7 @@ const RoboticsHeroSection = () => {
   const handleScrollDown = () => {
     window.scrollTo({
       top: window.innerHeight,
-      behavior: "smooth",
+      behavior: "smooth", 
     });
   };
 
