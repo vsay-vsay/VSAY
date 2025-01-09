@@ -3,61 +3,70 @@ import { FaChartBar, FaDatabase, FaChartPie, FaChartLine, FaTable, FaMicrochip }
 import { IoMdClose } from "react-icons/io";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 
+// Define the type for each service
+type Service = {
+  id: number;
+  title: string;
+  icon: JSX.Element;
+  description: string;
+  details: string;
+};
+
 const DataAnalysisService = () => {
-  const [expandedService, setExpandedService] = useState(null);
-  const [selectedService, setSelectedService] = useState(null);
+  const [expandedService, setExpandedService] = useState<number | null>(null);
+  const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const services = [
+  const services: Service[] = [
     {
       id: 1,
       title: "Statistical Analysis",
       icon: <FaChartBar className="w-6 h-6" />,
       description: "Comprehensive statistical analysis for data-driven decisions",
-      details: "Our statistical analysis service includes hypothesis testing, regression analysis, and predictive modeling to help you make informed business decisions."
+      details: "Our statistical analysis service includes hypothesis testing, regression analysis, and predictive modeling to help you make informed business decisions.",
     },
     {
       id: 2,
       title: "Data Mining",
       icon: <FaDatabase className="w-6 h-6" />,
       description: "Extract valuable insights from large datasets",
-      details: "Utilize advanced data mining techniques to discover patterns, anomalies, and correlations in your data that drive business value."
+      details: "Utilize advanced data mining techniques to discover patterns, anomalies, and correlations in your data that drive business value.",
     },
     {
       id: 3,
       title: "Visualization",
       icon: <FaChartPie className="w-6 h-6" />,
       description: "Transform data into compelling visual stories",
-      details: "Create interactive dashboards and data visualizations that communicate insights effectively to stakeholders."
+      details: "Create interactive dashboards and data visualizations that communicate insights effectively to stakeholders.",
     },
     {
       id: 4,
       title: "Time Series Analysis",
       icon: <FaChartLine className="w-6 h-6" />,
       description: "Analyze temporal data patterns and trends",
-      details: "Forecast future trends and understand seasonal patterns in your time-based data for better planning and decision-making."
+      details: "Forecast future trends and understand seasonal patterns in your time-based data for better planning and decision-making.",
     },
     {
       id: 5,
       title: "Data Cleansing",
       icon: <FaTable className="w-6 h-6" />,
       description: "Ensure data quality and consistency",
-      details: "Professional data cleaning and preparation services to ensure your analysis is based on high-quality, reliable data."
+      details: "Professional data cleaning and preparation services to ensure your analysis is based on high-quality, reliable data.",
     },
     {
       id: 6,
       title: "Machine Learning",
       icon: <FaMicrochip className="w-6 h-6" />,
       description: "Advanced ML solutions for complex problems",
-      details: "Implement cutting-edge machine learning algorithms to automate processes and gain predictive insights."
-    }
+      details: "Implement cutting-edge machine learning algorithms to automate processes and gain predictive insights.",
+    },
   ];
 
-  const handleServiceClick = (id) => {
+  const handleServiceClick = (id: number) => {
     setExpandedService(expandedService === id ? null : id);
   };
 
-  const openModal = (service) => {
+  const openModal = (service: Service) => {
     setSelectedService(service);
     setIsModalOpen(true);
   };
@@ -77,10 +86,7 @@ const DataAnalysisService = () => {
 
         <div className="space-y-4">
           {services.map((service) => (
-            <div
-              key={service.id}
-              className="border border-gray-200 rounded-lg bg-white overflow-hidden"
-            >
+            <div key={service.id} className="border border-gray-200 rounded-lg bg-white overflow-hidden">
               <div
                 className="p-4 cursor-pointer hover:bg-gray-50 flex items-center justify-between"
                 onClick={() => handleServiceClick(service.id)}
@@ -98,7 +104,6 @@ const DataAnalysisService = () => {
                   <FaChevronRight className="text-gray-400 w-5 h-5" />
                 )}
               </div>
-              
               {expandedService === service.id && (
                 <div className="px-4 pb-4">
                   <div className="pl-14">
