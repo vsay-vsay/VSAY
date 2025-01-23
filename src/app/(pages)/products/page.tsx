@@ -5,9 +5,9 @@ import { ProductDetails } from "@/app/components/ui/producttimeline";
 const Products: React.FC = () => {
     return (
         <>
-        <NavbarButton />
-        <HeroParallaxs />
-        <ProductDetails />
+            <NavbarButton />
+            <HeroParallaxs />
+            <ProductDetails />
         </>
     )
 }

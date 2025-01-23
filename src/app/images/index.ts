@@ -35,6 +35,12 @@ import printingpage4 from '@/app/images/services/printing/printing4.jpeg';
 import printingpage5 from '@/app/images/services/printing/printing5.jpeg';
 import printingpage6 from '@/app/images/services/printing/printing6.webp';
 import printingpage7 from '@/app/images/services/printing/printing7.jpg';
+import inventorydash from '@/app/images/services/inventorymanagement/inventory-dashboard.jpg';
+import warehousemgmt from '@/app/images/services/inventorymanagement/warehouse-management.jpg';
+import codeconstruct from '@/app/images/services/codeconstructors/codeblock.jpg';
+import inventorymanages from '@/app/images/services/inventorymanagement/inventorymgmt.jpg';
+import programs from '@/app/images/services/codeconstructors/programming.jpg'
+import codeblock from '@/app/images/services/codeconstructors/codeblock.jpg'
 
 
 
@@ -76,4 +82,10 @@ export {
     printingpage5,
     printingpage6,
     printingpage7,
+   inventorydash,
+   warehousemgmt,
+   codeconstruct,
+   inventorymanages,
+   programs,
+   codeblock,
 }
