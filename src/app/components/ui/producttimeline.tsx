@@ -2,76 +2,101 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/app/components/ui/timeline";
 import { HoverBorderGradientButton } from "@/app/components/atom/button";
-import { iot1, iot2, robotics1, robotics2 } from "@/app/images";
-import logo from '@/app/images/vsay-logo.png'
+import { iot2, robotics1, robotics2,inventorymanages,programs,codeblock } from "@/app/images";
 
+import logo from "@/app/images/vsay-logo.png";
 
 export function ProductDetails() {
   const data = [
     {
-        title: "Robotics",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
-              We specialize in developing cutting-edge robotics solutions that can be used in various industries, such as manufacturing, logistics, and transportation. Our robots are designed with safety, reliability, and ease of use in mind.
-            </p>
-            <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
-              At our robotics service center, we offer a comprehensive range of solutions to meet all your needs. Our services include high-quality training programs, hands-on workshops, and expert-led sessions that cater to beginners and advanced learners alike. Whether you're looking to learn, design a new product, or refine your robotics skills, we provide dedicated trainers and resources to guide you through every step. We specialize in innovative product design and practical project development, ensuring our clients stay ahead in the evolving world of robotics. With our workshops and professional support, your ideas can seamlessly transform into groundbreaking robotic applications.
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <Image
-                src={robotics2}
-                alt="startup template"
-                width={500}
-                height={600}
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-              <Image
-                src={robotics1}
-                alt="startup template"
-                width={500}
-                height={600}
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-            <HoverBorderGradientButton text="Explore More !" url="/pages/services/robotics" logo={logo.src} />
+      title: "Inventory Management System",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+            Our Inventory Management System helps businesses streamline stock
+            management, reduce inefficiencies, and ensure product availability.
+            Designed for various industries, our system ensures real-time stock
+            tracking and seamless order management.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+            Key features include automated stock updates, low-stock alerts,
+            detailed reporting, and integration with your existing systems.
+            Whether managing a small warehouse or a large supply chain, our
+            tools enhance operational efficiency and drive better decision-making.
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src= 'https://res.cloudinary.com/daog6scxm/image/upload/v1698412237/cms/inventory-dashboard/Inventory_Dashboard_54_j912wh.webp'
+              alt="Inventory Dashboard"
+              width={500}
+              height={1600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src= {inventorymanages}
+              alt="Inventory Dashboard"
+              width={500}
+              height={1600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            
           </div>
-        ),
-      },
-      {
-        title: "IoT",
-        content: (
-          <div>
-            <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
-              IoT (Internet of Things) is a revolutionary technology that enables smart devices to communicate, share, and interact with each other in a way that was previously impossible. At VSAY, we specialize in developing cutting-edge IoT solutions that can help businesses and organizations improve their efficiency, reduce costs, and enhance customer experiences.
-            </p>
-            <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
-            We offer a full suite of IoT solutions, from professional training and workshops to product design and prototyping. Our expert trainers ensure participants gain practical, hands-on experience in developing and managing connected devices. Dive into IoT with us and build a future of smart, innovative applications.
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <Image
-                src={iot2}
-                alt="startup template"
-                width={500}
-                height={600}
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-              <Image
-                src={iot1}
-                alt="startup template"
-                width={500}
-                height={600}
-                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            </div>
-            <HoverBorderGradientButton text="Explore More !" url="/pages/services/iot" logo={logo.src} />
+          <HoverBorderGradientButton
+            text="Explore More!"
+            url="https://inventory.vsay.live/"
+            logo={logo.src}
+          />
+        </div>
+      ),
+    },
+    {
+      title: "Code Constructor",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+            CodeConstructor is a cutting-edge development platform designed to
+            streamline software development and deployment processes. It empowers
+            developers with intuitive tools and automation to bring ideas to life
+            faster and with fewer errors.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-lg md:text-base font-normal mb-8">
+            Key features include an advanced code editor, pre-built templates,
+            real-time collaboration, and seamless integration with popular
+            version control systems. CodeConstructor is built for teams who value
+            productivity, scalability, and quality in every project.
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+          <Image
+              src={codeblock}
+              alt="CodeConstructor Example"
+              width={500}
+              height={600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={programs}
+              alt="CodeConstructor Example"
+              width={500}
+              height={600}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
           </div>
-        ),
-      },
+          <HoverBorderGradientButton
+            text="Discover CodeConstructor"
+            url="/products/codeconstructor"
+            logo={logo.src}
+          />
+        </div>
+      ),
+    },
   ];
+  
   return (
     <div className="w-full">
       <Timeline data={data} />
     </div>
   );
 }
+
+
+
